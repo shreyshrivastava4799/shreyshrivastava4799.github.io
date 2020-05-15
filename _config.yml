@@ -1,1 +1,31 @@
-theme: jekyll-theme-slate
+name: Bokonist Shrey
+description: >
+  Shrey Shrivastava
+about: >
+  Shrey Shrivastava
+master_repo: false
+url: "http://shreyshrivastava4799.github.io/"
+markdown: kramdown
+highlighter: rouge
+
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+
+paginate: 4
+
+logo:             logo.png
+disqus_shortname:
+
+rtl: false
+owner:
+  name:           Shrey Shrivastava
+  email:          "shrivastava.shrey@ymail.com"
+  twitter:        KatapiChatapi
+  github:         shreyshrivastava4799
+  linkedin:       in/shrey-shrivastava-2a6716116
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
