@@ -8,16 +8,15 @@ url: "http://shreyshrivastava4799.github.io/"
 markdown: kramdown
 highlighter: rouge
 
-plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed', 'jekyll-seo-tag']
 
 paginate: 4
 
-logo:             logo.png
+logo: '/assets/logo.png'
 disqus_shortname:
 
 rtl: false
 owner:
-  name:           Shrey Shrivastava
   email:          "shrivastava.shrey@ymail.com"
   twitter:        bokonistShrey
   github:         shreyshrivastava4799

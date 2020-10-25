@@ -330,7 +330,7 @@ h4 {
   line-height: 0;
 }
 .fig-a {
-  float: left;
+  float: center;
   margin-right: 15px;
 }
 .figure small {

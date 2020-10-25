@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generative Adversarial Networks for Image Captioning"
-description: "Guide to setup readonly mode for some users in django admin"
+description: "Different ways GANS are being used for Image Captioning."
 tags: [ Generative Adversarial Networks, Discrete Data, Image Captioning]
 comments: true
 ---
@@ -15,11 +15,17 @@ This framework alleviates the requirement of explicitly defining a loss function
 For back-propagation adversarial loss to generator network, end-to-end differentiability need to be ensured. As a consequence the generative network can be used to model only continuous distribution in the current framework. For example : The generation of images using GANs has been highly successful due to image data being continuous variable. 
 
 ### Problem of Discretization of Language
-Generating words is not same as generating images
-images can be represented using continous pixels but words can't be 
-we can actually represent words using continous representation such as word2vec but then at time of mapping back these vectors to word can be problematic. 
-you will predict a vector which won't be exact same to any of the vectors so you will maybe try knn or cosine similarity to find the vector closest to your predicted vector this can be inaccurate and at the same time computationally inefficient. 
+In generating textual data (or for any discrete data in general) using GANs, back-propagating gradient estimates for generator would not be defined. The problem is the discrete representation of language in natural language processing. But the problem with using continuous representation is, mapping those vectors back to words, which is implicitly handled in images. 
 
-### Using Policy Gradients for Image Captioning 
-In reinforcement learning formulation of Image Captioning, generation of sequence of words can be considered as actions which is guided by a policy $$\pi_\theta$$.
 
+**How is textual data discrete and problems it causes in back-propagation?**
+The generator networks for Image Captioning (or text generating in general) have an LSTM network for language modeling followed by a softmax classifier that outputs a probability distribution for the next word over the vocabulary. This makes the language representation discrete (definition of discrete variable) as only one among the fixed number of words can be selected. 
+
+GANs work by training a generator network that outputs synthetic data, then running a discriminator network on the synthetic data. The gradient of the discriminator network’s output concerning the synthetic data tells you how to change the synthetic data to make it more realistic. You can make slight changes to the synthetic data only if it is based on continuous numbers. If it is based on discrete numbers, there is no way to make a slight change. 
+
+For example, if you output an image with a pixel value of 1.0, you can change that pixel value to 1.0001 on the next step. If you output the word “penguin”, you can’t change that to “penguin + .001” on the next step because there is no such word as “penguin + .001”. You have to go all the way from “penguin” to “ostrich”. [Check this out!](https://www.reddit.com/r/MachineLearning/comments/40ldq6/generative_adversarial_networks_for_text/)
+
+The output word is one with the maximum probability, so it could be thought of as a step function after the softmax layer, which makes dimensions other than the one represented by the “output word” zero. And we already know that step function has gradient zero almost everywhere; thus, propagating gradients through this layer wouldn’t be possible.
+
+
+         

@@ -8,3 +8,4 @@ gem "json"
 gem "rouge"
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem "rake"
+gem "jekyll-seo-tag"
