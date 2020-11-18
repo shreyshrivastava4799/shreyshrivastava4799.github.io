@@ -12,6 +12,7 @@ title: Life
 - [The Killers. "Some Kind of Love" *Wonderful Wonderful*, 2017.](https://music.youtube.com/watch?v=cuOW7MghCm0&feature=share)
 - [Gregory Alan Isakov. "If I Go, I'm Goin" *This Empty Northern Hemisphere*, 2009.](https://music.youtube.com/watch?v=BKc4I_cK0JU&feature=share)
 - [Jeff Buckley. "Hallelujah" *Grace*, 1994.](https://music.youtube.com/watch?v=y8AWFf7EAc4&feature=share) (Controversial opinion, I think its better than [Cohen's](https://music.youtube.com/watch?v=ttEMYvpoR-k&feature=share) version)
+- [Brigitte Engerer. "Nocturne, Op. posth. in C-Sharp Minor: Lento" *Chopin: Complete Nocturnes*, 2010.](https://music.youtube.com/watch?v=LJ7b-mBB1Zg&feature=share)(The piece was played by Holocaust survivor Natalia Karp for the Nazi concentration camp commandant Amon Goeth, with Goeth being so impressed with the rendition that he spared Karp's life. Check [this](https://en.wikipedia.org/wiki/Nocturne_in_C-sharp_minor,_Op._posth._(Chopin)) out!)
 
 
 
