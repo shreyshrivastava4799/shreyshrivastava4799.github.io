@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Introduction to Heuristic-Search Based Planning Algorithms"
+title: "An Introduction to Heuristic-Search Algorithms"
 description: "This post tries to give a gentle exposition to search algorithms for path planning." 
 tags: [Heuristic Search Algorithms, Path Planning, Robotics]
 comments: true
