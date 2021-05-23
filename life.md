@@ -4,7 +4,7 @@ title: Life
 ---
 <div style="text-align: justify; font-size: 18.5px; margin:0 auto;"> 
     <div> 
-        With the little experience I have with life, I have had tremendous impact of songs, books and movies. I think of them as philosophical stepping stones to scientific ideas. They inspire us to new possibilities and help think more elaborately. I have curated some of my personal favourites here and I wish to populate this page with interesting stuff over the years. If you wish to share your special recommendation, shoot me a mail :-) 
+        With the little experience I have with life, I have had tremendous impact of songs, books, poems and movies. I think of them as philosophical stepping stones to scientific ideas. They inspire us to new possibilities and help think more elaborately. I have curated some of my personal favourites here and I wish to populate this page with interesting stuff over the years. If you wish to share your special recommendation, shoot me a mail :-) 
     </div>
 </div>
 ## Music Recommendations 
@@ -36,8 +36,24 @@ title: Life
 
 
 
-## Movie Reviews
+## Poems
 
+<div style="text-align: justify; font-size: 18.5px; margin:0 auto;"> 
+    <div> 
+       <h3>Where the Mind is without fear Rabindranath Tagore</h3> <br/>
+        Where the mind is without fear and the head is held high; <br/>
+        Where knowledge is free;<br/>
+        Where the world has not been broken up into fragments by narrow  domestic walls;<br/>
+        Where words come out from the depth of truth;<br/>
+        Where tireless striving stretches its arms towards perfection;<br/>
+        Where the clear stream of reason has not lost its way into the  dreary desert sand of dead habit;<br/>
+        Where the mind is led forward by thee into ever-widening thought and action--<br/>
+        Into that heaven of freedom, my Father, let my country awake.<br/>
+    </div>
+</div>
+
+
+ 
 
 
 

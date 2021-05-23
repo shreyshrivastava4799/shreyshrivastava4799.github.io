@@ -12,13 +12,18 @@ title: About
   <div>  
     I’m a fourth-year undergraduate student in the Department of Computer Science and Engineering, Indian Institute of Technology, Kharagpur.
   </div>
-  <div style="margin-top:5px;">
+  <!-- <div style="margin-top:5px;">
     &emsp; &emsp; I’m currently working under Prof. Partha Pratim Chakraborty on Neuro-Symbolic AI, where my broad objective is to develop algorithms combining the perceptual power of Deep Learning with the reasoning capability of Classical AI for applications in Natural Language. Previously I spent some time working at AGV, IIT Kharagpur, enabling autonomous cars to move in complex unconstrained environments. Later I had the good fortune to work under Prof. Humphery Shi on Multimodal Deep Learning.
-  </div>
+  </div> -->
   <div style="margin-top:5px;">
     &emsp; &emsp; I sometimes enjoy playing football and reading books. Check <a href="{{ site.url }}/life">this</a> out for interesting recommendations !! 
   </div>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 </div>
 
