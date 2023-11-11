@@ -50,7 +50,3 @@ title: About
     <li><strong> A Prototype of an Intelligent Ground Vehicle for Constrained Environment: Design and Development</strong> in <em>IEEE International Conference on Control and Robots, South Korea(2019)</em> : S Shrivastava, et al. </li>
    </ol>
 </div>
-
-<div>
-    <a href="/assets/Resume.pdf"> <h2>Resume</h2></a> 
-</div>
