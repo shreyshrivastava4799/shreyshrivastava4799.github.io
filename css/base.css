@@ -43,6 +43,9 @@ p {
 }
 
 a.top-link {
+  /* Candidates loaded in _includes/head.html, pick one and swap it in:
+     'Zilla Slab' (current), 'Playfair Display', 'Lora', 'Merriweather', 'PT Serif', 'Cormorant Garamond' */
+  font-family: 'Zilla Slab', serif;
   color: black;
   margin-top: 40px;
   font-size: 60px;
@@ -83,7 +86,7 @@ hr:before {
 }
 
 .container {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   padding: 0 20px;
 }
