@@ -10,7 +10,7 @@ title: About
 ![image](/assets/SFNYE1412.JPG){:  height="247px" width="217px" style="float:left; padding-right:20px; padding-left:20px"}
 <div style="text-align: justify; font-size: 17px; margin:0 auto;"> 
   <div>  
-    I’m a fourth-year undergraduate student in the Department of Computer Science and Engineering, Indian Institute of Technology, Kharagpur.
+    I’m a Software Engineer working in the High-Frequency Trading (HFT) space for the last 4 years. I graduated from the Department of Computer Science and Engineering, Indian Institute of Technology, Kharagpur in 2022.
   </div>
   <!-- <div style="margin-top:5px;">
     &emsp; &emsp; I’m currently working under Prof. Partha Pratim Chakraborty on Neuro-Symbolic AI, where my broad objective is to develop algorithms combining the perceptual power of Deep Learning with the reasoning capability of Classical AI for applications in Natural Language. Previously I spent some time working at AGV, IIT Kharagpur, enabling autonomous cars to move in complex unconstrained environments. Later I had the good fortune to work under Prof. Humphery Shi on Multimodal Deep Learning.
@@ -26,19 +26,6 @@ title: About
 <br/>
 <br/>
 </div>
-
-## News
-<div style="text-align: justify; font-size: 17px;"> 
-  <ul style = "list-style-type:circle;">
-      <li><strong>April, 2020</strong> : I'll be starting my internship under Prof. Humphery Shi, University of Oregon on Multimodal Deep Learning.</li>
-      <!-- <li><strong>October, 2020</strong> : Attended the 30th International Conference on Automated Planning and Scheduling.</li> -->
-  </ul>
-</div>
-
-
-<br/>
-<br/>
-<br/>
 
 <div class="pagination">
   {% if site.owner.linkedin %}
